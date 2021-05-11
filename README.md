@@ -28,7 +28,7 @@ create the following custom fields<br>
 'test_date_2'<br>
 'test_date_3'<br>
 
-Add Date Node to Capture date you want to use as your base date<br>
+Add Date Node to Capture date you want to use as your base date eg 'when did you leave?"<br>
 
 Add Script to that node.<br>
 
@@ -38,7 +38,6 @@ Add Script to that node.<br>
   DT.setField('test_date_2', moment.utc().startOf('day').subtract(6, 'years').valueOf())
   DT.setField('test_date_3', moment.utc().startOf('day').add(1, 'day').valueOf())
 </script><br><br>
-
 
 add decision node to filter out those that don't meet criteria<br>
 
