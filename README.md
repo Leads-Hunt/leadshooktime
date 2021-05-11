@@ -1,19 +1,19 @@
-# leadshooktime
+# leadshooktime<br>
 
-create the following custom fields
+create the following custom fields<br>
 
-'test_date_1'
-'test_date_2'
-'test_date_3'
+'test_date_1'<br>
+'test_date_2'<br>
+'test_date_3'<br>
 
-add decision node to filter out those that don't meet criteria
+add decision node to filter out those that don't meet criteria<br>
 
-Deny Past
-When did you leave is less than or equal to 'test_date_1'
+Deny Past<br>
+When did you leave is less than or equal to 'test_date_1'<br>
 
-Deny Future
-When did you leave is greater than  or equal 'test_date_3'
+Deny Future<br>
+When did you leave is greater than  or equal 'test_date_3'<br>
 
-Accept 
-When did you leave is greater than  or equal 'test_date_1'
+Accept <br>
+When did you leave is greater than  or equal 'test_date_1'<br>
 
